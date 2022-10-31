@@ -25,26 +25,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(11, 11, 11);
+    color: rgb(27, 27, 27);
 }
- /* when selecting id in css needs to begin with # 
- also to not have image repeat have it cover and make it relative*/
-/* #about__part{
-    height: 100vh;
-background: url('/images/mountain.jpeg');
-background-size:cover;
-position:relative;
-bottom: 35%;
-} */
-
-spacing on all sections
- #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-} 
-#contact {
-    padding-bottom: 4rem;
-}
+ /* /* when selecting id in css needs to begin with # 
+ also to not have image repeat have it cover and make it relative */
 
 /* services section css */
 .servicesText.card {
@@ -86,3 +70,10 @@ spacing on all sections
     max-width: 100%;
 }
 
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} 
+#contact {
+    padding-bottom: 4rem;
+}
