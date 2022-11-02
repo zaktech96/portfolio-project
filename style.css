@@ -1,17 +1,15 @@
 
-/* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
 }
 
-/* hero background image */
 .bgimage {
     height:100vh;
     background: url('/images/mountain2.jpeg');
     background-size:cover;
     position:relative;
 }
-/* text css above hero image*/
+
 .hero_title {
     font-size: 4.5rem;
 }
@@ -30,7 +28,7 @@
  /* /* when selecting id in css needs to begin with # 
  also to not have image repeat have it cover and make it relative */
 
-/* services section css */
+
 .servicesText.card {
     height: 280px;
     cursor: pointer;
@@ -42,7 +40,7 @@
 }
 
 .card{
-    height: 455px;
+    height: 450px;
 }
 .card-title {
     text-align: center;
@@ -54,9 +52,6 @@
     border: 1px solid #008000;
 }
 
-
-
-/* social media icons styling */
 .social-icons {
     font-size: 36px;
     cursor: pointer;
@@ -67,7 +62,7 @@
 .fab {
     color: #000000;
 }
-/* footer styling */
+
 #footer {
     background-color: #808080;
     text-align: center;
@@ -82,8 +77,8 @@
     padding-bottom: 4rem;
 }
 
-
-@media screen and (min-width: 768px)  {
+/* to get media query to work dont forget to set max width as it didnt work for my cards */
+@media (min-width: 768px) and (max-width: 1024px) {
     .card{
         height: 600px;
     }
