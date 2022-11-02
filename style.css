@@ -40,6 +40,10 @@
     text-align: center;
     width: 100%;
 }
+
+.card{
+    height: 455px;
+}
 .card-title {
     text-align: center;
 }
@@ -76,4 +80,11 @@
 } 
 #contact {
     padding-bottom: 4rem;
+}
+
+
+@media screen and (min-width: 768px)  {
+    .card{
+        height: 600px;
+    }
 }
