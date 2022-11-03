@@ -40,7 +40,7 @@
 }
 
 .card{
-    height: 400px;
+    height: 450px;
 }
 .card-title {
     text-align: center;
@@ -78,8 +78,10 @@
 }
 
 /* to get media query to work dont forget to set max width as it didnt work for my cards */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 320px) and (max-width: 1024px)  {
     .card{
-        height: 600px;
+        height: 560px;
+        margin-bottom: -10px;
     }
+    
 }
