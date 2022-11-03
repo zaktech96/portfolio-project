@@ -1,4 +1,6 @@
-
+ /* a.navbar-brand{
+check out why color is not changing here for me
+} */
 .navbarScroll.navbarDark {
     background-color: black;
 }
@@ -40,7 +42,7 @@
 }
 
 .card{
-    height: 450px;
+    height: 420px;
 }
 .card-title {
     text-align: center;
@@ -78,10 +80,10 @@
 }
 
 /* to get media query to work dont forget to set max width as it didnt work for my cards */
-@media (min-width: 320px) and (max-width: 1024px)  {
+@media (min-width: 367px) and (max-width: 1024px)  {
     .card{
-        height: 560px;
-        margin-bottom: -10px;
+        height: 565px;
+        /* margin-bottom: -10px; */
     }
     
 }
