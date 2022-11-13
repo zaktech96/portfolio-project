@@ -11,7 +11,13 @@ check out why color is not changing here for me
     background-size:cover;
     position:relative;
 }
-
+.profile__img{
+    width: 95%; 
+    height: 95%;
+    margin-left: 25px;
+    max-width: 1006px;
+    max-height: 1056px
+}
 .hero_title {
     font-size: 4.5rem;
 }
@@ -43,7 +49,9 @@ check out why color is not changing here for me
 
 .card{
     height: 420px;
+    font-size: 16px;
 }
+
 .card-title {
     text-align: center;
 }
@@ -80,10 +88,17 @@ check out why color is not changing here for me
 }
 
 /* to get media query to work dont forget to set max width as it didnt work for my cards */
-@media (min-width: 367px) and (max-width: 1024px)  {
+/* @media (min-width: 368px) {
     .card{
-        height: 565px;
-        /* margin-bottom: -10px; */
+        height: 420px;
+        
     }
     
-}
+} */
+
+ @media   (min-width: 368px) and (max-width: 1024px) {
+    .card{
+        height: 580px;
+       font-size: 20px;
+    }
+ }
