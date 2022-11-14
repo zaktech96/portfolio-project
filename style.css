@@ -14,9 +14,9 @@ check out why color is not changing here for me
 .profile__img{
     width: 95%; 
     height: 95%;
-    margin-left: 25px;
-    max-width: 1006px;
-    max-height: 1056px
+    margin-left: 21px;
+    /* max-width: 1906px;
+    max-height: 1056px */
 }
 .hero_title {
     font-size: 4.5rem;
@@ -47,10 +47,14 @@ check out why color is not changing here for me
     width: 100%;
 }
 
+
+
 .card{
     height: 420px;
     font-size: 16px;
 }
+
+
 
 .card-title {
     text-align: center;
